@@ -2,7 +2,7 @@ from alpha_vantage.fundamentaldata import FundamentalData
 
 key = 'eed9a7089e88769241a5e22313495e13'
 fd = FundamentalData(key,output_format = 'pandas')
-ticker = 'MMM'
+ticker = 'AAPL'
 
 raw_IS = fd.get_income_statement_annual(ticker)
 income_statement = raw_IS[0].T[2:]

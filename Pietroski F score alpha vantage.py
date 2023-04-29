@@ -6,7 +6,7 @@ statement = input('Statement- balance sheet, income statement, cash flow : ')
 fd = FundamentalData(Key, output_format = 'pandas')
 import pandas as pd
                      
-ticker = ['GOOGL']  # ticker
+ticker = ['AAPL']  # ticker
 
 # income statement of the company |
 IS1 = fd.get_income_statement_annual(ticker)
